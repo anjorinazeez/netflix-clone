@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    font-family: 'Rubik', sans-serif;
+    background: #333333;
+    color: #fff;
+    line-height: 1.3;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #6d6c6c;
+}
+
+li{
+    margin: 15px;
+    font-size: 13px;
+}
+
+.dif{
+    margin: 0 0;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    line-height: 1.1;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2{
+    line-height: 1.1;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    max-width: 550px;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 30px auto;
+}
+
+.text-xl{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-3{
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.section{
+    background: #000;
+    margin-top: 6px;
+}
+
+p{
+    display: inline-block;
+}
+
+/* Header */
+.header{
+    height: 700px;
+    background: url(../img/NG-en-20230227-popsignuptwoweeks-perspective_alpha_website_small.jpg) no-repeat center center / cover;
+}
+
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding: 20px 40px;
+    z-index: 1;
+    position: relative;
+}
+
+.header nav .btn{
+    cursor: pointer;
+    background: #e50914;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 7px 17px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 45px;
+}
+
+.header .netflix-logo{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px 45px;
+}
+
+.header .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.header-text{
+    font-size: 27px;
+    margin: 15px 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.header-text-1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.get-started{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 5px;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+form input{
+    height: 60px;
+    width: 100%;
+    max-width: 100%;
+}
+
+input{
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+form ::placeholder{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+.btn-1{
+    font-size: 23px;
+    color: #fff;
+    background: #e50914;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+/* First Section */
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 40%;
+}
+
+.section-img{
+    width: 35%;
+    margin: 70px 30px;
+}
+
+/* Second Section */
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img-2{
+    width: 25%;
+    margin: 70px 50px;
+}
+
+/* Third Section */
+.section-3{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.text-1{
+    margin: 80px 150px;
+}
+
+/* Fourth Section */
+.section-img-3{
+    width: 40%;
+    margin: 70px 30px;
+}
+
+/* Fifth Section */
+.btn-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-4{
+    display: grid;
+    grid-template-columns: 15fr 1fr;
+    width: 800px;
+    height: 70px;
+    max-width: 800px;
+    padding: 20px 20px;
+    margin: 5px 0;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    background: #333333;
+    color: #fff;
+    border: none;
+}
+
+.text-4:hover{
+    background: #585858;
+}
+
+.six{
+    margin-bottom: 60px;
+}
+
+.get-started{
+    margin-bottom: 70px;
+}
+
+/* Footer */
+.footer{
+    background: #000;
+    margin-top: 6px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 50px;
+}
+
+.list-head{
+    font-size: 16px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.list-bottom{
+    margin-top: 70px;
+}
+
+.dif-mar{
+    margin-top: 60px;
+}
+
+/* MEADIA QUERIES */
+@media (max-width: 1100px){
+    h1{
+        font-size: 47px;
+        font-weight: 600;
+    }
+
+    .text{
+        width: 50%;
+    }
+
+    .text-1{
+        margin: 80px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 960px){
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    h2{
+        font-size: 40px;
+        max-width: 100%;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+
+    .header-text{
+        font-size: 24px;
+    }
+
+    .header-text-1{
+        font-size: 18px;
+    }
+
+    .get-started{
+        width: 630px;
+    }
+    
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .section-img{
+        width: 70%;
+    }
+
+    .section-img-2{
+        width: 50%;
+    }
+
+    .section-img-3{
+        width: 60%;
+    }
+
+    .text{
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    .text-3{
+        font-size: 21.5px;
+        max-width: 100%;
+    }
+
+    .text-4{
+        width: 700px;
+    }
+
+    .list-head{
+        font-size: 15px;
+    }
+    
+    .footer-list{
+        margin: 50px 0;
+        gap: 5px;
+    }
+
+    }
+
+    @media (max-width: 730px){
+        .get-started{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 500px;
+        }
+        .btn-1{
+            width: 200px;
+            height: 60px;
+            margin: 0 150px;
+            border-radius: 3px;
+        }
+
+        .text-3{
+            font-size: 20px;
+        }
+
+        .text-4{
+            width: 550px;
+        }
+
+        h3{
+            font-size: 35px;
+        }
+
+        h2{
+            font-size: 35px;
+        }
+
+        .footer-list{
+            gap: 0;
+        }
+
+        li{
+            margin: 15px 10px;
+        }
+
+    }
+    
+    @media (max-width: 620px){
+        .dif-mar{
+            margin-top: 70px;
+        }
+
+    }
+
+
+
